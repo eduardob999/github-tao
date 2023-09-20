@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use lib "REPLACETHISPATHPLEASE/";
+use lib "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/";
 use File::Basename;
 use ESPT::ONIOMGEOM 0.02;
 use strict;
@@ -272,7 +272,7 @@ print "\nTRANSGEOM ends.\n\n" if $debug >= 0;
 
 # display help on usage
 sub help {
-	system("perldoc REPLACETHISPATHPLEASE/scripts/transgeom.pl");
+	system("perldoc /home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/scripts/transgeom.pl");
 	exit;
 }
 

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use lib "REPLACETHISPATHPLEASE/";
+use lib "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/";
 use File::Basename;
 use ESPT::GoutOniom 0.01;
 use ESPT::GinputOniom 0.01;
@@ -159,7 +159,7 @@ print "\nCHARGESUM ends.\n\n" if $debug >= 0;
 
 # display help on usage
 sub help {
-	system("perldoc REPLACETHISPATHPLEASE/scripts/chargesum.pl");
+	system("perldoc /home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/scripts/chargesum.pl");
 	exit;
 }
 

@@ -1,6 +1,6 @@
 #!/usr/bin/perl 
 
-use lib "REPLACETHISPATHPLEASE/";
+use lib "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/";
 use ESPT::GTable 0.01;
 use strict;
 use warnings;
@@ -223,7 +223,7 @@ sub usage {
 
 # display help using perldoc option
 sub help {
-	system("perldoc REPLACETHISPATHPLEASE/scripts/gaussiantable.pl");
+	system("perldoc /home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/scripts/gaussiantable.pl");
 	exit;
 }
 

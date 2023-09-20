@@ -62,8 +62,8 @@ our @gaffbendatmtyp3;
 our @gaffbendparm1;
 our @gaffbendparm2;
 
-our $amberparm99file = "REPLACETHISPATHPLEASE/ESPT/amberff/parm99.dat";
-our $ambergafffile   = "REPLACETHISPATHPLEASE/ESPT/amberff/gaff.dat";
+our $amberparm99file = "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/ESPT/amberff/parm99.dat";
+our $ambergafffile   = "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/ESPT/amberff/gaff.dat";
 
 our $parm99strtchnum;
 our $parm99bendnum;

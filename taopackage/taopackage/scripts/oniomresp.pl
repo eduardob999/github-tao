@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use lib "REPLACETHISPATHPLEASE/";
+use lib "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/";
 use File::Basename;
 use ESPT::ONIOMRESP 0.1;
 use strict;
@@ -545,7 +545,7 @@ print "\n" if $debug >= 0;
 
 # display help on usage
 sub help {
-	system("perldoc REPLACETHISPATHPLEASE/scripts/oniomresp.pl");
+	system("perldoc /home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/scripts/oniomresp.pl");
 	exit;
 }
 

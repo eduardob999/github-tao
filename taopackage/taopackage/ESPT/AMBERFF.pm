@@ -45,8 +45,8 @@ our %ffelenum;
 our %ffparchg;
 our @ffresiduelist;
 
-our $amberlibfile = "REPLACETHISPATHPLEASE/ESPT/amberff/all_amino03.lib";
-our $prepfolder = "REPLACETHISPATHPLEASE/ESPT/prepfiles";
+our $amberlibfile = "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/ESPT/amberff/all_amino03.lib";
+our $prepfolder = "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/ESPT/prepfiles";
 
 my $curresid;
 my $endresidue;

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use lib "REPLACETHISPATHPLEASE";
+use lib "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage";
 use File::Basename;
 use ESPT::PDBCRD2ONIOM 0.1;
 use strict;
@@ -229,7 +229,7 @@ print "\nPDBCRD2ONIOM exits.\n\n" if $debug >= 0;
 
 # display help on usage
 sub help {
-	system("perldoc REPLACETHISPATHPLEASE/scripts/pdbcrd2oniom.pl");
+	system("perldoc /home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/scripts/pdbcrd2oniom.pl");
 	exit;
 }
 

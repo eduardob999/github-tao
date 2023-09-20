@@ -1,6 +1,6 @@
 #!/usr/bin/perl 
 
-use lib "REPLACETHISPATHPLEASE";
+use lib "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage";
 use ESPT::Glog 0.07;
 use ESPT::Oniom 0.04;
 use ESPT::Oniominput 0.02;
@@ -294,7 +294,7 @@ sub usage {
 
 # display help using perldoc option
 sub help {
-	system("perldoc REPLACETHISPATHPLEASE/scripts/oniomlog.pl");
+	system("perldoc /home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/scripts/oniomlog.pl");
         exit;
 }
 

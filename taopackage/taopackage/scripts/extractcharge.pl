@@ -1,6 +1,6 @@
 #!/usr/bin/perl 
 
-use lib "REPLACETHISPATHPLEASE/";
+use lib "/home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/";
 use ESPT::Glog 0.07;
 use ESPT::Gfchk 0.01;
 use ESPT::EXTRACTCHARGE 0.03;
@@ -208,7 +208,7 @@ sub proginfo {
 
 # display help on usage
 sub help {
-	system("perldoc REPLACETHISPATHPLEASE/scripts/extractcharge.pl");
+	system("perldoc /home/lfqcomputacional/Desktop/eduardo/git/github-tao/taopackage/taopackage/scripts/extractcharge.pl");
 	exit;
 }
 
