@@ -11,7 +11,7 @@
 # TAO scripts to be installed. Please make sure this path is in your
 # search PATH
 
-USERPATH=~/bin
+USERPATH=/home/lfqcomputacional/Desktop/eduardo/git/github-tao/modules
 
 
 DIR=$(pwd)
